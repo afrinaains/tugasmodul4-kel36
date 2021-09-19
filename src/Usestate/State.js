@@ -2,19 +2,19 @@ import { useState } from 'react';
 import "./State.css"
 
 const Home = () => {
-    //let name = 'afrina';
-    const [name, setName] = useState('afrina');
-    const [age, setAge] = useState(21);
+    //let name = 'xxxxx';
+    const [hari, setHari] = useState('Hari ini');
+    const [tanggal, setTanggal] = useState('Minggu');
 
     const handleClick = () => {
-        setName('jeremy');
-        setAge(21);
+        setHari('Besok');
+        setTanggal('Senin');
     }
 
     return (
         <div className="home">
             <h2>Kelompok 36</h2>
-            <p>{ name } is { age } years old</p>
+            <p>{ hari } adalah hari { tanggal }</p>
             <button onClick={handleClick}>Click me</button>
         </div>
     );
