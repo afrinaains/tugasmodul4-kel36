@@ -1,0 +1,11 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 400px;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  background-color:steelblue;
+}
